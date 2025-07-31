@@ -57,22 +57,6 @@ npm install
 npm run dev
 ```
 
-## 📁 项目结构
-
-```
-├── compost_system/          # Django后端
-│   ├── api/                # API接口
-│   ├── utils/              # 工具类
-│   │   ├── train.py        # 模型训练
-│   │   └── dataset_dispose.py  # 数据增强
-│   └── upload/             # 文件上传目录
-├── compost_client/         # Vue前端
-│   ├── src/
-│   │   ├── pages/          # 页面组件
-│   │   ├── components/     # 通用组件
-│   │   └── api/           # API接口
-└── README.md
-```
 
 ## 🔬 AI模型详情
 
@@ -87,10 +71,24 @@ npm run dev
 - 输入尺寸: 224×224×3
 - 输出: 分类结果 + 置信度
 
-## 📊 功能截图
+## 📊 项目演示
 
+### 🎥 演示视频
+
+#### 完整功能演示
+<!-- 替换下面的链接为你的实际视频链接 -->
+
+https://github.com/user-attachments/assets/your-demo-video.mp4
+
+> 📹 演示内容：用户登录 → 图片上传 → AI检测 → 结果展示 → 数据统计
+
+#### 快速预览 GIF
+<!-- 可选：添加GIF动图快速预览 -->
+![智能堆肥检测演示](https://github.com/imnotleo666/compost/assets/demo.gif)
+
+### 📸 功能截图
 - 用户登录界面
-- 图像上传检测
+- 图像上传检测  
 - 数据可视化面板
 - 检测历史记录
 
@@ -104,7 +102,7 @@ MIT License
 
 ## 👨‍💻 作者
 
-杨盛林leo- 智能农业解决方案开发者
+杨盛林leo - 智能环保解决方案开发者
 
 ---
 
