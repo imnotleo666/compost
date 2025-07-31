@@ -15,25 +15,9 @@ This system leverages deep learning technology combined with modern web framewor
 - 📈 **Detection Records**: Complete detection history tracking with data export capabilities
 - ⚡ **Real-time Prediction**: Millisecond-level response time for instant results
 
-## 🛠️ Tech Stack
+## 🤖 AI Technology
 
-### Backend
-- **Python 3.8+**
-- **Django 5.2.4** - Web framework
-- **PyTorch** - Deep learning framework
-- **torchvision** - Computer vision library
-- **Pillow** - Image processing
-
-### Frontend
-- **Vue.js 3** - Progressive JavaScript framework
-- **Element Plus** - Vue 3 UI component library
-- **ECharts** - Data visualization library
-- **Vite** - Next-generation build tool
-
-### AI Model
-- **ResNet18** - Pre-trained Convolutional Neural Network
-- **Data Augmentation** - 20+ augmentation strategies supported
-- **Transfer Learning** - Based on ImageNet pre-trained weights
+This system uses **ResNet18**, a pre-trained Convolutional Neural Network, with transfer learning based on ImageNet weights to accurately classify compost maturity. The model supports 20+ data augmentation strategies to improve accuracy and robustness.
 
 ## 📁 Project Structure
 
