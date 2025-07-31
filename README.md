@@ -121,7 +121,7 @@ MIT License
 
 ## 👨‍💻 Author
 
-**Yang Shenglin (Leo)** - Smart Agricultural Solutions Developer
+**Yang Shenglin (Leo)** - Smart Environmental Solutions Developer
 
 - 🎓 Computer Science Student
 - 🌱 Passionate about AI in Agriculture  
