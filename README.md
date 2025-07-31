@@ -1,48 +1,67 @@
-# 🌱 智能堆肥成熟度检测系统
+# 🌱 Smart Compost Maturity Detection System
 
-基于深度学习的农业智能化解决方案，通过图像识别技术自动判断堆肥成熟度。
+An AI-powered agricultural solution that automatically determines compost maturity through advanced image recognition technology.
 
-## 📋 项目概述
+## 📋 Project Overview
 
-本系统采用深度学习技术，结合Web应用框架，为农业生产提供智能化的堆肥成熟度检测服务。用户只需上传堆肥图像，系统即可自动判断成熟度并给出置信度评分。
+This system leverages deep learning technology combined with modern web frameworks to provide intelligent compost maturity detection services for agricultural production. Users simply upload compost images, and the system automatically determines maturity levels with confidence scores.
 
-## ✨ 主要功能
+## ✨ Key Features
 
-- 🔍 **智能图像识别**: 基于ResNet18的深度学习模型，准确识别堆肥成熟状态
-- 📊 **数据可视化**: 实时展示检测历史、用户统计等多维度数据
-- 👥 **用户管理系统**: 支持管理员和普通用户角色管理
-- 📱 **响应式界面**: 现代化Web界面，支持桌面端和移动端
-- 📈 **检测记录**: 完整的检测历史记录和数据导出功能
-- ⚡ **实时预测**: 毫秒级响应速度
+- 🔍 **AI Image Recognition**: ResNet18-based deep learning model for accurate compost maturity classification
+- 📊 **Data Visualization**: Real-time display of detection history, user statistics, and multi-dimensional analytics
+- 👥 **User Management**: Comprehensive role-based access control for administrators and regular users
+- 📱 **Responsive Interface**: Modern web interface optimized for both desktop and mobile devices
+- 📈 **Detection Records**: Complete detection history tracking with data export capabilities
+- ⚡ **Real-time Prediction**: Millisecond-level response time for instant results
 
-## 🛠️ 技术栈
+## 🛠️ Tech Stack
 
-### 后端
+### Backend
 - **Python 3.8+**
-- **Django 5.2.4** - Web框架
-- **PyTorch** - 深度学习框架
-- **torchvision** - 计算机视觉库
-- **Pillow** - 图像处理
+- **Django 5.2.4** - Web framework
+- **PyTorch** - Deep learning framework
+- **torchvision** - Computer vision library
+- **Pillow** - Image processing
 
-### 前端
-- **Vue.js 3** - 前端框架
-- **Element Plus** - UI组件库
-- **ECharts** - 数据可视化
-- **Vite** - 构建工具
+### Frontend
+- **Vue.js 3** - Progressive JavaScript framework
+- **Element Plus** - Vue 3 UI component library
+- **ECharts** - Data visualization library
+- **Vite** - Next-generation build tool
 
-### AI模型
-- **ResNet18** - 预训练卷积神经网络
-- **数据增强** - 支持20+种增强策略
-- **迁移学习** - 基于ImageNet预训练权重
+### AI Model
+- **ResNet18** - Pre-trained Convolutional Neural Network
+- **Data Augmentation** - 20+ augmentation strategies supported
+- **Transfer Learning** - Based on ImageNet pre-trained weights
 
-## 🚀 快速开始
+## 📁 Project Structure
 
-### 环境要求
+```
+├── compost_system/          # Django Backend
+│   ├── api/                # API endpoints
+│   ├── utils/              # Utility modules
+│   │   ├── train.py        # Model training
+│   │   └── dataset_dispose.py  # Data augmentation
+│   └── upload/             # File upload directory
+├── compost_client/         # Vue Frontend
+│   ├── src/
+│   │   ├── pages/          # Page components
+│   │   ├── components/     # Reusable components
+│   │   └── api/           # API interfaces
+├── requirements.txt        # Python dependencies
+├── deploy.sh              # Deployment script
+└── README.md
+```
+
+## 🚀 Quick Start
+
+### Prerequisites
 - Python 3.8+
 - Node.js 16+
-- CUDA (可选，用于GPU加速)
+- CUDA (optional, for GPU acceleration)
 
-### 后端启动
+### Backend Setup
 ```bash
 cd compost_system
 pip install -r requirements.txt
@@ -50,7 +69,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### 前端启动
+### Frontend Setup
 ```bash
 cd compost_client
 npm install
@@ -58,52 +77,56 @@ npm run dev
 ```
 
 
-## 🔬 AI模型详情
+## 🔬 AI Model Details
 
-### 数据增强策略
-- **几何变换**: 随机旋转、翻转、缩放
-- **颜色空间**: 亮度、对比度、饱和度调整
-- **数据扩充**: 每张原图生成20个变种
+### Data Augmentation Strategy
+- **Geometric Transformations**: Random rotation, flipping, scaling
+- **Color Space Adjustments**: Brightness, contrast, saturation modifications
+- **Data Multiplication**: Generate 20 variants per original image
 
-### 模型架构
-- 基础模型: ResNet18
-- 分类类别: 2类（成熟/未成熟）
-- 输入尺寸: 224×224×3
-- 输出: 分类结果 + 置信度
+### Model Architecture
+- **Base Model**: ResNet18
+- **Classification Classes**: 2 classes (Mature/Immature)
+- **Input Size**: 224×224×3
+- **Output**: Classification result + Confidence score
 
-## 📊 项目演示
+## 📊 Project Demo
 
-### 🎥 演示视频
+### 🎥 Demo Video
 
-#### 完整功能演示
-<!-- 替换下面的链接为你的实际视频链接 -->
+#### Complete Feature Demonstration
+<!-- Replace the link below with your actual video link -->
 
 https://github.com/user-attachments/assets/your-demo-video.mp4
 
-> 📹 演示内容：用户登录 → 图片上传 → AI检测 → 结果展示 → 数据统计
+> 📹 Demo Content: User Login → Image Upload → AI Detection → Result Display → Data Analytics
 
-#### 快速预览 GIF
-<!-- 可选：添加GIF动图快速预览 -->
-![智能堆肥检测演示](https://github.com/imnotleo666/compost/assets/demo.gif)
+#### Quick Preview GIF
+<!-- Optional: Add GIF animation for quick preview -->
+![Smart Compost Detection Demo](https://github.com/imnotleo666/compost/assets/demo.gif)
 
-### 📸 功能截图
-- 用户登录界面
-- 图像上传检测  
-- 数据可视化面板
-- 检测历史记录
+### 📸 Feature Screenshots
+- User login interface
+- Image upload and detection  
+- Data visualization dashboard
+- Detection history records
 
-## 🤝 贡献指南
+## 🤝 Contributing
 
-欢迎提交Issues和Pull Requests来改进项目！
+We welcome Issues and Pull Requests to improve this project!
 
-## 📄 许可证
+## 📄 License
 
 MIT License
 
-## 👨‍💻 作者
+## 👨‍💻 Author
 
-杨盛林leo - 智能环保解决方案开发者
+**Yang Shenglin (Leo)** - Smart Agricultural Solutions Developer
+
+- 🎓 Computer Science Student
+- 🌱 Passionate about AI in Agriculture  
+- 💻 Full-Stack Developer & ML Engineer
 
 ---
 
-⭐ 如果这个项目对你有帮助，请给个Star支持一下！
+⭐ If this project helps you, please give it a Star to support us!
