@@ -76,18 +76,37 @@ npm run dev
 
 ## 📊 Project Demo
 
-### 🎥 Demo Video
+### 🎥 Demo Videos
 
-#### Complete Feature Demonstration
-<!-- Replace the link below with your actual video link -->
+#### 🌟 Website Features Demo
+<!-- To add your website features video: -->
+<!-- 1. Edit this file on GitHub -->
+<!-- 2. Drag and drop your website demo video below this line -->
 
-https://github.com/user-attachments/assets/your-demo-video.mp4
+*Website functionality demonstration video*
 
-> 📹 Demo Content: User Login → Image Upload → AI Detection → Result Display → Data Analytics
+> 📹 Features Demo: User Interface → Image Upload → AI Detection → Results Display → Data Analytics Dashboard
 
-#### Quick Preview GIF
-<!-- Optional: Add GIF animation for quick preview -->
-![Smart Compost Detection Demo](https://github.com/imnotleo666/compost/assets/demo.gif)
+#### 🚀 Project Setup & Startup Process
+<!-- To add your startup process video: -->
+<!-- 1. Edit this file on GitHub -->
+<!-- 2. Drag and drop your startup demo video below this line -->
+
+*Complete setup and startup demonstration video*
+
+> 🛠️ Startup Demo: Environment Setup → Dependencies Installation → Backend Launch → Frontend Launch → System Testing
+
+#### 📝 How to Upload Videos
+```
+1. Go to: https://github.com/imnotleo666/compost
+2. Click on README.md file
+3. Click the pencil icon (Edit)
+4. Find the video sections above
+5. Delete the placeholder text
+6. Drag and drop your video files directly
+7. GitHub will auto-generate the links
+8. Commit changes
+```
 
 ### 📸 Feature Screenshots
 - User login interface
@@ -105,7 +124,7 @@ MIT License
 
 ## 👨‍💻 Author
 
-**Yang Shenglin (Leo)** - Smart Agricultural Solutions Developer
+**Yang Shenglin (Leo)** - Smart Environmental Solutions Developer
 
 - 🎓 Computer Science Student
 - 🌱 Passionate about AI in Agriculture  
