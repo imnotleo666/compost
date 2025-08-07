@@ -91,11 +91,6 @@ https://github.com/user-attachments/assets/aa228cba-a0d3-48c2-a478-b7a915727221
 > 🛠️ Startup Demo: Environment Setup → Dependencies Installation → Backend Launch → Frontend Launch → System Testing
 
 
-### 📸 Feature Screenshots
-- User login interface
-- Image upload and detection  
-- Data visualization dashboard
-- Detection history records
 
 ## 🤝 Contributing
 
