@@ -104,9 +104,8 @@ MIT License
 
 **Yang Shenglin (Leo)** - Smart Environmental Solutions Developer
 
-- 🎓 Computer Science Student
-- 🌱 Passionate about AI in Agriculture  
-- 💻 Full-Stack Developer & ML Engineer
+- 🎓 High School Student
+- 🌱 Passionate about AI in Environment  
 
 ---
 
