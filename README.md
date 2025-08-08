@@ -88,7 +88,7 @@ https://github.com/user-attachments/assets/e4e46ad6-58d5-4fe2-a33a-3f69831e8556
 
 https://github.com/user-attachments/assets/aa228cba-a0d3-48c2-a478-b7a915727221
 
-> 🛠️ Startup Demo: Environment Setup → Dependencies Installation → Backend Launch → Frontend Launch → System Testing
+> 🛠️ Startup Demo: Backend Launch → Frontend Launch → System Testing
 
 
 
