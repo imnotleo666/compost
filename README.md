@@ -80,7 +80,9 @@ npm run dev
 
 #### 🌟 Website Features Demo
 
-https://github.com/user-attachments/assets/e4e46ad6-58d5-4fe2-a33a-3f69831e8556
+
+https://github.com/user-attachments/assets/b3c3618b-4aae-4e06-9b25-560be1b5e6e0
+
 
 > 📹 Features Demo: User Interface → Image Upload → AI Detection → Results Display → Data Analytics Dashboard
 
