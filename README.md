@@ -96,9 +96,6 @@ https://github.com/user-attachments/assets/aa228cba-a0d3-48c2-a478-b7a915727221
 
 We welcome Issues and Pull Requests to improve this project!
 
-## 📄 License
-
-MIT License
 
 ## 👨‍💻 Author
 
